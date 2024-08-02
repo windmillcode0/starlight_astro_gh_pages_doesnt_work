@@ -3,7 +3,9 @@ import starlight from '@astrojs/starlight';
 
 // https://astro.build/config
 export default defineConfig({
-outDir:"docs",
+	"site":"https://windmillcode0.github.io",
+	"base":"starlight_astro_gh_pages_doesnt_work",
+	outDir:"docs",
 	integrations: [
 		starlight({
 			title: 'My Docs',
